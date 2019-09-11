@@ -16,3 +16,17 @@ body{
     border-radius: 50%;
     background-color: #fff;
 }
+.circle:after, .circle:before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: tomato;
+    left: 45%;
+    top: -5px;
+}
+.circle:after{
+    top: auto;
+    bottom: -5px;
+}
