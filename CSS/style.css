@@ -57,3 +57,14 @@ body{
         transform: translateY(0px);
     }
 }
+@keyframes negBouncy{
+    0%{
+        transform: rotate(0degree);
+    }
+    50%{
+        transform: rotate(180degree);
+    }
+    100%{
+        transform: rotate(360degree);
+    }
+}
