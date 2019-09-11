@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: dodgerblue;
+    background-color:#222;
 }
 .center{
     position: absolute;
@@ -22,7 +22,7 @@ body{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: tomato;
+    background: #fff;
     left: 45%;
     top: -5px;
 }
